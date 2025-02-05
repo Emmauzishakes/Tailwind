@@ -1,0 +1,20 @@
+//Setting up Tailwindcss CLI
+
+
+Install Tailwind CSS
+Import Tailwind in your CSS
+Start the Tailwind CLI build process
+Start using Tailwind in your HTML
+
+
+//Commands
+npm install tailwindcss @tailwindcss/cli      -> into command prompt
+
+@import "tailwindcss";    -> into "./src/input.css" file
+
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch      -> into command prompt
+
+Write HTML code example      -> into "./src/index.html" file
+
+
+[optional] Rebuild the Tailwind - step3
